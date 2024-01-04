@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Welcome to my blog!"
+title: "Welcome to Lagrange!"
 author: "Paul Le"
 categories: journal
 tags: [documentation,sample]
 image: mountains.jpg
 ---
 
-This is Steven Liao, currently pursuing a master's degree in software development. I have a background in veterinary medicine and have previously worked as a casino dealer at SkyCity in Auckland.
+Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
 
 ## Getting Started
 
