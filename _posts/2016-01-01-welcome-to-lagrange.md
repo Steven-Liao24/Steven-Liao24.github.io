@@ -7,7 +7,7 @@ tags: [documentation,sample]
 image: mountains.jpg
 ---
 
-This is Steven, having my master program of software development.
+This is Steven Liao, currently pursuing a master's degree in software development. I have a background in veterinary medicine and have previously worked as a casino dealer at SkyCity in Auckland.
 
 ## Getting Started
 
