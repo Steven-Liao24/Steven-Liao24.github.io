@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Welcome to Lagrange!
+title: Welcome to my blog!
 permalink: /about
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+I am a Master of Software Development student at Victoria University of Wellington. I came to Auckland for a working holiday in 2022 and worked as a casino dealer for six months before starting my studies.
+
+### About This Blog
+
+This blog serves as a platform for me to share my experiences, insights, and projects related to software development. Here you will find articles on various topics, including programming languages, frameworks, and best practices. I aim to provide valuable content to fellow developers and contribute to the software development community.
 
 ### Getting Started
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
-
-### Example Content
-
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+To get started with this blog, you can explore the different sections and articles. If you have any questions or suggestions, feel free to reach out to me through the provided contact options.
 
 ### Questions?
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+If you have any questions or need further information, please don't hesitate to contact me. I am always happy to help and engage with the readers of this blog.
