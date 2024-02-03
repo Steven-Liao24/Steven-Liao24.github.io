@@ -3,18 +3,17 @@ layout: default
 ---
 
 <div class="posts-container">
-  <h1>
-    <a href="{{ site.github.url }}/path-to-your-introduction-article">{{ page.title }}</a>
-    <a href="mario-game.html">playmario</a>
-
-  </h1>
-  {% if page.image %}
-    <div class="thumbnail-container">
-      <a href="{{ site.github.url }}/path-to-your-introduction-article"><img src="{{ site.github.url }}/assets/img/{{ page.image }}"></a>
-    </div>
-  {% endif %}
-  <p>
-    {{ page.content | strip_html | truncate: 350 }} <a href="{{ site.github.url }}/path-to-your-introduction-article">Read more</a>
-    <span class="post-date"><i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date_to_string }} - <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</span>
-  </p>
+  <h1>Welcome to Steven's Blog</h1>
+  <a href="mario-game.html">Play Mario</a>
+  <p>This is Steven Liao's personal space where you can find my coding projects and thoughts on technology and life.</p>
+  <div>
+    <h2>About Me</h2>
+    <p>I am a software engineer passionate about open-source projects and web development. On this blog, I share my journey in programming and insights into technology trends.</p>
+    <!-- Assuming the CV is placed in the assets folder, the link to the CV is as follows -->
+    <a href="{{ '/assets/CV.pdf' | prepend: site.baseurl }}" target="_blank">View My Resume</a>
+  </div>
+  <!-- If you have a personal avatar, you can add it here -->
+  <div class="thumbnail-container">
+    <img src="{{ '/assets/img/avatar.jpg' | prepend: site.baseurl }}" alt="Steven Liao">
+  </div>
 </div>

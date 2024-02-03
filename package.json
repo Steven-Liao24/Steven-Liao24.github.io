@@ -1,0 +1,45 @@
+{
+  "name": "es6-mario",
+  "version": "1.0.0",
+  "description": "A web game made by ES6 syntax and HTML5.Learn by https://www.youtube.com/watch?v=g-FpDQ8Eqw8&index=1&list=PLS8HfBXv9ZWWe8zXrViYbIM2Hhylx8DZx .",
+  "main": "index.js",
+  "scripts": {
+    "prod": "npm run build & node ./public/build/prod-server.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --config ./public/build/webpack.config.js",
+    "build": "webpack --config ./public/build/webpack.config.js"
+  },
+  "keywords": [
+    "es6",
+    "web-game",
+    "jsavascript",
+    "super-mario"
+  ],
+  "author": "juniortour",
+  "license": "MIT",
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "compression-webpack-plugin": "^1.1.10",
+    "copy-webpack-plugin": "^4.4.1",
+    "css-loader": "^0.28.10",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.9",
+    "html-webpack-plugin": "^2.30.1",
+    "imagemin-webpack-plugin": "2.0.0",
+    "promise-polyfill": "7.1.0",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.5",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

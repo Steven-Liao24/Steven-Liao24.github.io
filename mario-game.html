@@ -2,16 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>ES6-Mario</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="dist/css/styles.css">
+    <!-- Link to the stylesheet and favicon within the 'dist' directory -->
+    <link rel="stylesheet" href="{{ 'dist/css/styles.css' | relative_url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ 'dist/img/favicon.png' | relative_url }}">
+    <!-- Include GitHub buttons.js for GitHub buttons to work -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body>
-    <div id="game-container">
-        <!-- Canvas element -->
-        <canvas id="screen" width="256" height="240"></canvas>
+    <!-- Canvas element where the game will be rendered -->
+    <canvas id="screen" width="256" height="240">
+        Your browser doesn't support canvas natively.
+    </canvas>
+
+    <!-- On-screen game controls for mobile or touch devices -->
+    <div class="controller-wrapper controller-wrapper-left">
+        <div id="left-btn" class="controller controller-arrow controller-arrow-left"></div>
+        <div id="right-btn" class="controller controller-arrow controller-arrow-right"></div>
     </div>
-    <!-- JavaScript -->
-    <script src="dist/bundle.js"></script>
+    <div class="controller-wrapper controller-wrapper-right">
+        <div id="jump-btn" class="controller controller-circle controller-circle-large controller-arrow-top"
+             data-key="jump"></div>
+    </div>
+
+    <!-- Audio wrapper for background music -->
+    <div class="audio-wrapper">
+        <audio src="{{ 'dist/sound/overworld.mp3' | relative_url }}" id="bgm" autoplay loop></audio>
+    </div>
+
+    <!-- GitHub buttons wrapper -->
+    <div class="github-btn-wrapper">
+        <a class="github-button" href="https://github.com/JuniorTour" data-show-count="true" aria-label="Follow @JuniorTour on GitHub">@JuniorTour</a>
+        <a class="github-button" href="https://github.com/JuniorTour/es6-mario" data-icon="octicon-star" data-show-count="true" aria-label="Star JuniorTour/es6-mario on GitHub">Star</a>
+    </div>
+
+    <!-- Include the JavaScript file that starts and manages your game -->
+    <script src="{{ 'dist/bundle.js' | relative_url }}"></script>
 </body>
 </html>
