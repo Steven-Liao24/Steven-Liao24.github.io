@@ -21,7 +21,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Steven blog'
-description:	       'a minimalist Jekyll theme'
+description:	       'Steven's blog and portfolio site.'
 author:              'Steven Liao'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines

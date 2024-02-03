@@ -1,0 +1,6 @@
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1236    1235    1235       2268  ?        1063560 20:03:46 /d/python/Microsoft VS Code/Code
+     1265    1240    1265      19228  pty0     1063560 20:12:56 /usr/bin/PS
+     1240    1239    1240      12340  pty0     1063560 20:12:51 /usr/bin/bash
+     1235       1    1235        676  ?        1063560 20:03:45 /usr/bin/sh
+     1239       1    1239      15152  ?        1063560 20:12:41 /usr/bin/mintty
